@@ -27,6 +27,7 @@ public class ATM_Machine {
 	String tocheckcount;
 	int Receipt_no;
 	int softlock;
+	String temppin;
 	String tempcardnum;
 	String StringAccount_no;
 	Integer Account_no;
@@ -81,48 +82,48 @@ public class ATM_Machine {
 		}
 	
 	
-	public void Encryption()
-	{
-	    Long cardnum;
-	    Integer pinofcard;
-	    int key=3;
-	    int cardarray[] = new int[Card_number.length()], pinarray[] = new int[pin.length()];
-	    int temp,i=0;
-	    Long tempp=(long) 0;
-        cardnum = Long.parseLong(Card_number);
-	    while(cardnum!=0)
-	    {
-	    	temp=(int) (cardnum%10);
-	    	cardnum/=10;
-	    	temp+=key;
-	    	temp%=10;
-	    	cardarray[i]=temp;
-	    	i++;
-	    }
-	    for(int k=Card_number.length()-1;k>=0;k--)
-	    {
-	    	tempp = tempp* 10 + cardarray[k];
-	    }
-	    tempcardnum= Long.toString(tempp);
-	    i=0;
-	    pinofcard = Integer.parseInt(pin);
-	    while(pinofcard!=0)
-	    {
-	    	temp=pinofcard%10;
-	    	pinofcard/=10;
-	    	temp+=key;
-	    	temp%=10;
-	    	pinarray[i]=temp;
-	    	i++;
-	    }
-	    tempp = (long) 0;
-	    for(int k=pin.length()-1;k>=0;k--)
-	    {
-	    	tempp = tempp* 10 + pinarray[k];
-	    }
-	    
-	    pin= Long.toString(tempp);
-	}
+//	public void Encryption()
+//	{
+//	    Long cardnum;
+//	    Integer pinofcard;
+//	    int key=3;
+//	    int cardarray[] = new int[Card_number.length()], pinarray[] = new int[pin.length()];
+//	    int temp,i=0;
+//	    Long tempp=(long) 0;
+//        cardnum = Long.parseLong(Card_number);
+//	    while(cardnum!=0)
+//	    {
+//	    	temp=(int) (cardnum%10);
+//	    	cardnum/=10;
+//	    	temp+=key;
+//	    	temp%=10;
+//	    	cardarray[i]=temp;
+//	    	i++;
+//	    }
+//	    for(int k=Card_number.length()-1;k>=0;k--)
+//	    {
+//	    	tempp = tempp* 10 + cardarray[k];
+//	    }
+//	    tempcardnum= Long.toString(tempp);
+//	    i=0;
+//	    pinofcard = Integer.parseInt(pin);
+//	    while(pinofcard!=0)
+//	    {
+//	    	temp=pinofcard%10;
+//	    	pinofcard/=10;
+//	    	temp+=key;
+//	    	temp%=10;
+//	    	pinarray[i]=temp;
+//	    	i++;
+//	    }
+//	    tempp = (long) 0;
+//	    for(int k=pin.length()-1;k>=0;k--)
+//	    {
+//	    	tempp = tempp* 10 + pinarray[k];
+//	    }
+//	    
+//	    pin= Long.toString(tempp);
+//	}
 	public void Validation()
 	{
 		
@@ -140,14 +141,35 @@ public class ATM_Machine {
 		pin= myObj.nextLine();
 		logger.info("User Entered Pin");
 		System.out.println("--------------------------------------\n");
-		String sql2 = "select * from atm_card where CARD_NO="+Card_number;
-		Encryption();
-		String sql = "select * from card_pin where CARD_PIN_E="+tempcardnum;
+		
+		//new code
+		String sql11= "Select pkg_app_security.fn_encrypt_value ('"+Card_number+"') rh from dual";
+		String sql12= "Select pkg_app_security.fn_encrypt_value ('"+pin+"') rh from dual";
+		ResultSet u= st.executeQuery(sql11);
+		//System.out.println("query 11 working");
+		u.next();
+		tempcardnum=u.getString(1);
+		//System.out.println(tempcardnum);
+
+		ResultSet v= st.executeQuery(sql12);
+		//System.out.println("query 12 working");
+		v.next();
+		temppin=v.getString(1);
+		//System.out.println(temppin);
+
+		
+		//new code end
+		//Encryption();
+		String sql = "select * from acc_pin where CARD_PIN_E='"+tempcardnum+"'";
+		
 		ResultSet m= st.executeQuery(sql);
+		//System.out.println("query sql working");
 		m.next();
-		if(tempcardnum.equals(m.getString(2)) && pin.equals(m.getString(4)))//verification using database 
+		if(tempcardnum.equals(m.getString(2)) && temppin.equals(m.getString(4)))//verification using database 
 		{
+			String sql2 = "select * from atm_card where CARD_NO="+Card_number;
 			ResultSet n= st.executeQuery(sql2);
+			//System.out.println("query sql2 working");
 			n.next();
 			
 			if(validateJavaDate(n.getString(5)))
@@ -156,20 +178,25 @@ public class ATM_Machine {
 				{
 					String sql5="update card_pin set INVALID_ENTRIES ="+0+" where CARD_NO="+this.Card_number;
 					ResultSet p= st.executeQuery(sql5);
+					//System.out.println("query sql5 working");
 					String sql6 ="select account_no from account where card_no="+this.Card_number; 
-					ResultSet q=st.executeQuery(sql6); q.next();
+					ResultSet q=st.executeQuery(sql6); 
+					//System.out.println("query sql6 working");
+					q.next();
 					StringAccount_no=q.getString(1);
 				    Account_no = Integer.parseInt(StringAccount_no);
 					this.count=0;
 					//System.out.println(Account_no);		
 					String sql7 ="select max(transaction_id) from transaction"; 
 					ResultSet r=st.executeQuery(sql7); 
+					//System.out.println("query sql7 working");
 					r.next();
 					this.Receipt_no=r.getInt(1);
 					//System.out.println(Receipt_no);
 					
 					String sql8 ="select soft_lock from account where account_no="+Account_no;
 					ResultSet s=st.executeQuery(sql8);
+					//System.out.println("query sql8 working");
 					s.next();
 					this.softlock=s.getInt(1);
 					//System.out.println(this.softlock);
@@ -178,6 +205,7 @@ public class ATM_Machine {
 						System.out.println("\n\n\tWELCOME\n\n");
 						String sql9="update account set soft_lock=0 where account_no="+Account_no;
 						ResultSet t=st.executeQuery(sql9);
+						//System.out.println("query sql9 working");
 						//t.next();
 						//this.softlock=0;
 						menu();
@@ -213,9 +241,11 @@ public class ATM_Machine {
 				temp=countvalue-this.count;
 				if(this.count<=3)
 				{
-					System.out.println("Left chances :"+ temp);
+					System.out.println("Invalid Pin");
+					System.out.println("Chances left :"+ temp);
 					String sql3="update card_pin set INVALID_ENTRIES ="+this.count+" where CARD_NO="+this.Card_number;
 					ResultSet o= st.executeQuery(sql3);
+					//System.out.println("query sql3 working");
 					Validation();
 				}
 				else
@@ -232,6 +262,7 @@ public class ATM_Machine {
 		catch(Exception x)
 		{logger.debug(Account_no+" Invalid card"+x);
 			System.out.println("\nInvalid card");
+			//x.printStackTrace();
 			Validation();
 		}
 		
@@ -248,7 +279,7 @@ public class ATM_Machine {
 		System.out.println("---------------------");
 		System.out.println("\tMenu");
 		System.out.println("---------------------");
-		System.out.println("1: Statement \n2: Withdraw \n3: Transfer\n4: Deposit \n5: Log Out");
+		System.out.println("1: Statement \n2: Withdraw \n3: Transfer\n4: Deposit \n5: Exit");
 		System.out.println("---------------------\n");
 		Scanner myObj = new Scanner(System.in);
 		choice= myObj.nextInt();

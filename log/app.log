@@ -63,3 +63,122 @@
 2019-07-31 17:47:28 [main] INFO  ATM_Machine:136 - Card number Entered
 2019-07-31 17:47:40 [main] INFO  ATM_Machine:141 - User Entered Pin
 2019-07-31 17:47:42 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 18:34:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 18:34:10 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:29:22 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:29:31 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:29:31 [main] DEBUG ATM_Machine:241 - null Invalid cardjava.sql.SQLException: ResultSet.next was not called
+2019-07-31 20:29:31 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:30:59 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:31:05 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:31:06 [main] DEBUG ATM_Machine:245 - null Invalid cardjava.sql.SQLException: ResultSet.next was not called
+2019-07-31 20:31:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:32:37 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:32:45 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:32:45 [main] DEBUG ATM_Machine:249 - null Invalid cardjava.sql.SQLException: ResultSet.next was not called
+2019-07-31 20:32:45 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:35:16 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:35:23 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:35:23 [main] DEBUG ATM_Machine:251 - null Invalid cardjava.sql.SQLException: ResultSet.next was not called
+2019-07-31 20:35:23 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:37:03 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:37:11 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:37:12 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 20:37:12 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:38:57 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:39:03 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 20:39:05 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 20:39:05 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:37 [main] DEBUG ATM_Machine:241 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:37 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:37 [main] DEBUG ATM_Machine:241 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:37 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:37 [main] DEBUG ATM_Machine:241 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:37 [main] DEBUG ATM_Machine:245 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:37 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:37 [main] DEBUG ATM_Machine:245 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:38 [main] DEBUG ATM_Machine:249 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:38 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:38 [main] DEBUG ATM_Machine:249 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:38 [main] DEBUG ATM_Machine:251 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:38 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:38 [main] DEBUG ATM_Machine:251 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:39 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:39 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:39 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:39 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:39 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 20:54:39 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 20:54:39 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 23:28:59 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:29:08 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:29:09 [main] DEBUG ATM_Machine:253 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 23:29:09 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:31:22 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:31:28 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:31:30 [main] DEBUG ATM_Machine:262 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 23:31:30 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:32:37 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:32:43 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:32:45 [main] DEBUG ATM_Machine:262 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 23:32:45 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:34:32 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:34:37 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:34:38 [main] DEBUG ATM_Machine:262 - null Invalid cardjava.sql.SQLSyntaxErrorException: ORA-00972: identifier is too long
+
+2019-07-31 23:34:38 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:37:53 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:37:59 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:38:02 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-07-31 23:39:21 [main] INFO  ATM_Machine:312 - 1212123456 logged out
+2019-07-31 23:39:21 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:40:54 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-07-31 23:41:00 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-07-31 23:41:03 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-07-31 23:41:10 [main] INFO  ATM_Machine:312 - 1212123456 logged out
+2019-07-31 23:41:10 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:00:38 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:00:43 [main] INFO  ATM_Machine:204 - 1234123456 Logged in
+2019-08-01 00:00:51 [main] INFO  ATM_Machine:301 - 1234123456 selected Deposit
+2019-08-01 00:00:57 [main] DEBUG Deposit:49 - User Completed Deposit Succesfully !!!
+2019-08-01 00:03:33 [main] INFO  ATM_Machine:312 - 1234123456 logged out
+2019-08-01 00:03:33 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:04:27 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:04:29 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:04:49 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:04:50 [main] DEBUG ATM_Machine:262 - null Invalid cardjava.sql.SQLException: Result set after last row
+2019-08-01 00:04:50 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:13:53 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:15:14 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:15:15 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:17:58 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:17:59 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:18:35 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:18:36 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:25:30 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:25:31 [main] DEBUG ATM_Machine:262 - null Invalid cardjava.sql.SQLException: Result set after last row
+2019-08-01 00:25:31 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:25:51 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:25:52 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:26:16 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:26:17 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:26:35 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 00:26:36 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:44:10 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 00:45:45 [main] INFO  ATM_Machine:137 - Card number Entered

@@ -56,7 +56,7 @@ public class MoneyTransfer {
 					transfer(sender_acc_number);
 				}
 				
-		        if(sender_acc_balance <=amt)
+		        if(sender_acc_balance <amt)
 		    	{logger.info(acc_no+" insufficeint balance");
 					System.out.print("You do not have enough balance\n");
 					//Again call transfer function if the account number is incorrect
@@ -85,9 +85,25 @@ public class MoneyTransfer {
 			
 			while(flag)
 			{
+				try {
 				System.out.print("Please Enter beneficiary account number\n");
 				Scanner receiver_acc_numberobj=new Scanner(System.in);
 				receiver_acc_number=receiver_acc_numberobj.nextInt();
+				}
+				catch(Exception e)
+				{
+					invalid = invalid+1;
+					System.out.println("Invalid account number");	
+					System.out.println((5-invalid) +" attempts left!");
+						
+					   if(invalid == 5)
+					   {
+							Log_Out logut1=new Log_Out();
+					        logut1.logout();
+					   }
+					   else
+						   continue;
+				}
 				if(receiver_acc_number==sender_acc_number)
 				{
 					System.out.println("Can't Enter own Account Number ");

@@ -12,10 +12,12 @@ import atmmachine.ATM_Machine;
 public class Deposit {
 	static final Logger logger = LogManager.getLogger(Deposit.class.getName());
 	Receipt r1 = new Receipt();
+	Log_Out l1=new Log_Out();
 	ATM_Machine a1 = new ATM_Machine();
 	int temporary;
     int acc_balance=0;
     int new_acc_balance=0;
+    int flag=0;
 public void deposit1(int number)
 {
 	
@@ -37,9 +39,16 @@ public void deposit1(int number)
 		System.out.println("Please enter the amount to deposit");
 		Scanner s=new Scanner(System.in);
 		int amt=s.nextInt();
-		if(amt<=0 || amt>20000)
+		if(amt<=0 || amt>20000||(amt%50)!=0)
 		{
+			++flag;
+			if(flag==3)
+			{
+		        System.out.println("Sorry you exceeded the chances please insert card and try again\n");	
+				l1.logout();
+			}
 	        System.out.println("cannot deposit "+amt);	
+	        System.out.println((3-flag) +" attempts left!");
             deposit1(acc_number); 
 		}
 		else {
