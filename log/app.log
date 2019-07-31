@@ -1,0 +1,65 @@
+2019-07-30 23:19:48 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:30:31 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:32:33 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:33:39 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:34:03 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:39:33 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-30 23:39:36 [main] INFO  ATM_Machine:259 - User selected Enquiry
+2019-07-30 23:39:41 [main] INFO  ATM_Machine:263 - User selected Withdrawal
+2019-07-31 11:00:54 [main] INFO  MyLog:139 - User Entered Pin !!!
+2019-07-31 11:23:40 [main] INFO  MyLog:139 - User Entered Pin !!!
+2019-07-31 11:23:42 [main] INFO  MyLog:175 - User Logged in
+2019-07-31 11:23:45 [main] INFO  MyLog:257 - User selected Enquiry
+2019-07-31 12:10:26 [main] INFO  ATM_Machine:140 - User Entered Pin !!!
+2019-07-31 12:10:56 [main] INFO  ATM_Machine:140 - User Entered Pin !!!
+2019-07-31 12:10:58 [main] INFO  ATM_Machine:176 - User Logged in
+2019-07-31 12:11:00 [main] INFO  ATM_Machine:258 - User selected Enquiry
+2019-07-31 12:11:00 [main] INFO  MyLog:46 - Receipt printed
+2019-07-31 12:50:38 [main] INFO  ATM_Machine:141 - User Entered Pin !!!
+2019-07-31 12:50:39 [main] INFO  ATM_Machine:177 - User Logged in
+2019-07-31 12:50:43 [main] INFO  ATM_Machine:259 - 1212123456 selected Enquiry
+2019-07-31 12:50:44 [main] INFO  Receipt:46 - Receipt printed
+2019-07-31 12:50:53 [main] INFO  ATM_Machine:282 - 1212123456 logged out
+2019-07-31 15:50:57 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 15:56:08 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 15:56:30 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 15:56:32 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 15:57:29 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 15:57:29 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 15:58:00 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 15:58:02 [main] INFO  ATM_Machine:177 - 1212123456 Logged in
+2019-07-31 15:58:09 [main] INFO  ATM_Machine:267 - 1212123456 selected transfer
+2019-07-31 16:03:03 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:03:18 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 16:03:20 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:05:31 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 16:05:32 [main] INFO  ATM_Machine:177 - 1212123456 Logged in
+2019-07-31 16:05:35 [main] INFO  ATM_Machine:267 - 1212123456 selected transfer
+2019-07-31 16:07:59 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:11:25 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:11:25 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:17:18 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:17:30 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 16:17:32 [main] INFO  ATM_Machine:177 - 1212123456 Logged in
+2019-07-31 16:17:34 [main] INFO  ATM_Machine:267 - 1212123456 selected transfer
+2019-07-31 16:19:10 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:25:50 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:26:25 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:26:38 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:26:49 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 16:26:50 [main] INFO  ATM_Machine:177 - 1212123456 Logged in
+2019-07-31 16:26:55 [main] INFO  ATM_Machine:267 - 1212123456 selected transfer
+2019-07-31 16:26:59 [main] DEBUG MoneyTransfer:48 - 1212123456Overflow Error
+2019-07-31 16:26:59 [main] INFO  MoneyTransfer:49 - overflow error
+2019-07-31 16:27:09 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:27:14 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 16:27:14 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 16:27:14 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 16:27:14 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 17:09:45 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 17:09:56 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 17:09:56 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 17:09:56 [main] DEBUG ATM_Machine:233 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-07-31 17:47:28 [main] INFO  ATM_Machine:136 - Card number Entered
+2019-07-31 17:47:40 [main] INFO  ATM_Machine:141 - User Entered Pin
+2019-07-31 17:47:42 [main] INFO  ATM_Machine:136 - Card number Entered

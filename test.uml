@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_dNU0QLNhEem2SN-xPtPbNQ">
+  <name xsi:nil="true"/>
+  <elementImport xmi:id="_dVQoQLNhEem2SN-xPtPbNQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_dVTEgLNhEem2SN-xPtPbNQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_dVWH0LNhEem2SN-xPtPbNQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_dWf-YLNhEem2SN-xPtPbNQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_dWv2ALNhEem2SN-xPtPbNQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dRtlALNhEem2SN-xPtPbNQ" name="atmmachine">
+    <packagedElement xmi:type="uml:Class" xmi:id="_dR81kLNhEem2SN-xPtPbNQ" name="MyLog">
+      <ownedAttribute xmi:id="_dTdRcLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedOperation xmi:id="_dTjYELNhEem2SN-xPtPbNQ" name="getLogger" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_dTjYEbNhEem2SN-xPtPbNQ" name="return" type="_dTSSULNhEem2SN-xPtPbNQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dR_R0LNhEem2SN-xPtPbNQ" name="Receipt">
+      <ownedAttribute xmi:id="_dTkmMLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedOperation xmi:id="_dVRPULNhEem2SN-xPtPbNQ" name="receipt" visibility="public">
+        <ownedParameter xmi:id="_dVRPUbNhEem2SN-xPtPbNQ" name="receipt_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_dVRPUrNhEem2SN-xPtPbNQ" name="category">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_dVRPU7NhEem2SN-xPtPbNQ" name="accno">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dVTrkLNhEem2SN-xPtPbNQ" name="get_timestamp" visibility="package" isStatic="true">
+        <ownedParameter xmi:id="_dVTrkbNhEem2SN-xPtPbNQ" name="timestamp">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSAf8LNhEem2SN-xPtPbNQ" name="MoneyTransfer">
+      <ownedAttribute xmi:id="_dVU5sLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedOperation xmi:id="_dVWH0bNhEem2SN-xPtPbNQ" name="transfer" visibility="package">
+        <ownedParameter xmi:id="_dVWH0rNhEem2SN-xPtPbNQ" name="acc_no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSBuELNhEem2SN-xPtPbNQ" name="Deposit">
+      <ownedAttribute xmi:id="_dVXV8LNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_dVX9ALNhEem2SN-xPtPbNQ" name="r1" visibility="package" type="_dR_R0LNhEem2SN-xPtPbNQ" association="_dW_GkLNhEem2SN-xPtPbNQ"/>
+      <ownedAttribute xmi:id="_dVZLILNhEem2SN-xPtPbNQ" name="a1" visibility="package" type="_dSFYcLNhEem2SN-xPtPbNQ" association="_dW_GkrNhEem2SN-xPtPbNQ"/>
+      <ownedAttribute xmi:id="_dVaZQLNhEem2SN-xPtPbNQ" name="temporary" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVbnYLNhEem2SN-xPtPbNQ" name="acc_balance" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dVbnYbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVc1gLNhEem2SN-xPtPbNQ" name="new_acc_balance" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dVc1gbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_dVdckLNhEem2SN-xPtPbNQ" name="deposit1" visibility="public">
+        <ownedParameter xmi:id="_dVdckbNhEem2SN-xPtPbNQ" name="number">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSC8MLNhEem2SN-xPtPbNQ" name="withdrawCash">
+      <ownedAttribute xmi:id="_dVfRwLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_dVhuALNhEem2SN-xPtPbNQ" name="receiptnumber" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVkKQLNhEem2SN-xPtPbNQ" name="k" visibility="package" type="_dTS5YbNhEem2SN-xPtPbNQ"/>
+      <ownedAttribute xmi:id="_dVnNkLNhEem2SN-xPtPbNQ" name="currDenom" visibility="protected" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dVnNkbNhEem2SN-xPtPbNQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dVnNkrNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVpp0LNhEem2SN-xPtPbNQ" name="currNo" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dVpp0bNhEem2SN-xPtPbNQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dVpp0rNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVsGELNhEem2SN-xPtPbNQ" name="count" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dVsGEbNhEem2SN-xPtPbNQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dVsGErNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVuiULNhEem2SN-xPtPbNQ" name="totalCorpus" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dVuiUbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVw-kLNhEem2SN-xPtPbNQ" name="amount" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dVw-kbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dVza0LNhEem2SN-xPtPbNQ" name="initAmount" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dVza0bNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dV13ELNhEem2SN-xPtPbNQ" name="actNo" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dV13EbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dV46YLNhEem2SN-xPtPbNQ" name="atmBalance" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dV46YbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dV7WoLNhEem2SN-xPtPbNQ" name="userAccountBalance" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dV7WobNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_dV8kwLNhEem2SN-xPtPbNQ" name="dbConnect" visibility="public"/>
+      <ownedOperation xmi:id="_dV9y4LNhEem2SN-xPtPbNQ" name="dbConnectForAccount" visibility="public"/>
+      <ownedOperation xmi:id="_dV_BALNhEem2SN-xPtPbNQ" name="calcTotalCorpus" visibility="public"/>
+      <ownedOperation xmi:id="_dWAPILNhEem2SN-xPtPbNQ" name="withdrawal" visibility="public"/>
+      <ownedOperation xmi:id="_dWCEULNhEem2SN-xPtPbNQ" name="amountSubtractor2k" visibility="public">
+        <ownedParameter xmi:id="_dWCEUbNhEem2SN-xPtPbNQ" name="q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWDScLNhEem2SN-xPtPbNQ" name="amountSubtractor1k" visibility="public">
+        <ownedParameter xmi:id="_dWDScbNhEem2SN-xPtPbNQ" name="q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWFHoLNhEem2SN-xPtPbNQ" name="amountSubtractor5h" visibility="public">
+        <ownedParameter xmi:id="_dWFHobNhEem2SN-xPtPbNQ" name="q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWGVwLNhEem2SN-xPtPbNQ" name="amountSubtractor1h" visibility="public">
+        <ownedParameter xmi:id="_dWGVwbNhEem2SN-xPtPbNQ" name="q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWIK8LNhEem2SN-xPtPbNQ" name="amountSubtractor50" visibility="public">
+        <ownedParameter xmi:id="_dWIK8bNhEem2SN-xPtPbNQ" name="q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWJZELNhEem2SN-xPtPbNQ" name="actDbUpdate" visibility="public"/>
+      <ownedOperation xmi:id="_dWKnMLNhEem2SN-xPtPbNQ" name="withdrawdCash" visibility="public"/>
+      <ownedOperation xmi:id="_dWMcYLNhEem2SN-xPtPbNQ" name="displayNotes" visibility="private">
+        <ownedComment xmi:id="_dWORkLNhEem2SN-xPtPbNQ">
+          <body>/** 
+ * Display notes.
+ */
+</body>
+        </ownedComment>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSFYcLNhEem2SN-xPtPbNQ" name="ATM_Machine">
+      <ownedAttribute xmi:id="_dWPfsLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_dWRU4LNhEem2SN-xPtPbNQ" name="Card_number" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWTxILNhEem2SN-xPtPbNQ" name="validcard" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dWTxIbNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWVmULNhEem2SN-xPtPbNQ" name="tocheckcount" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWYCkLNhEem2SN-xPtPbNQ" name="Receipt_no" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWae0LNhEem2SN-xPtPbNQ" name="softlock" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWcUALNhEem2SN-xPtPbNQ" name="tempcardnum" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWewQLNhEem2SN-xPtPbNQ" name="StringAccount_no" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWhMgLNhEem2SN-xPtPbNQ" name="Account_no" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWjBsLNhEem2SN-xPtPbNQ" name="countvalue" visibility="package" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dWjBsbNhEem2SN-xPtPbNQ" value="3"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWld8LNhEem2SN-xPtPbNQ" name="todayDate" visibility="package" type="_dTS5YLNhEem2SN-xPtPbNQ"/>
+      <ownedAttribute xmi:id="_dWnTILNhEem2SN-xPtPbNQ" name="pin" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWpvYLNhEem2SN-xPtPbNQ" name="encryptednumber" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWsLoLNhEem2SN-xPtPbNQ" name="acno_array" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dWsLobNhEem2SN-xPtPbNQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dWsLorNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dWuA0LNhEem2SN-xPtPbNQ" name="count" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_dWuA0bNhEem2SN-xPtPbNQ"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_dWv2AbNhEem2SN-xPtPbNQ" name="validateJavaDate" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_dWv2ArNhEem2SN-xPtPbNQ" name="strDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_dWv2A7NhEem2SN-xPtPbNQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dWxEILNhEem2SN-xPtPbNQ" name="Encryption" visibility="public"/>
+      <ownedOperation xmi:id="_dWySQLNhEem2SN-xPtPbNQ" name="Validation" visibility="public"/>
+      <ownedOperation xmi:id="_dWzgYLNhEem2SN-xPtPbNQ" name="menu" visibility="public"/>
+      <ownedOperation xmi:id="_dW0ugLNhEem2SN-xPtPbNQ" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_dW0ugbNhEem2SN-xPtPbNQ" name="jjjjjj">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dW0ugrNhEem2SN-xPtPbNQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dW0ug7NhEem2SN-xPtPbNQ"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSHNoLNhEem2SN-xPtPbNQ" name="DBConnection">
+      <ownedAttribute xmi:id="_dW2jsLNhEem2SN-xPtPbNQ" name="con" visibility="package" isStatic="true" type="_dTS5Y7NhEem2SN-xPtPbNQ"/>
+      <ownedAttribute xmi:id="_dW3KwLNhEem2SN-xPtPbNQ" name="logger" visibility="package" isStatic="true" type="_dTSSULNhEem2SN-xPtPbNQ" isReadOnly="true"/>
+      <ownedOperation xmi:id="_dW3x0LNhEem2SN-xPtPbNQ" name="getConnection" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_dW3x0bNhEem2SN-xPtPbNQ" name="return" type="_dTS5Y7NhEem2SN-xPtPbNQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSH0sLNhEem2SN-xPtPbNQ" name="Log_Out">
+      <ownedOperation xmi:id="_dW3x0rNhEem2SN-xPtPbNQ" name="logout" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dW_GkLNhEem2SN-xPtPbNQ" memberEnd="_dVX9ALNhEem2SN-xPtPbNQ _dW_GkbNhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_dW_GkbNhEem2SN-xPtPbNQ" name="Deposit" type="_dSBuELNhEem2SN-xPtPbNQ" association="_dW_GkLNhEem2SN-xPtPbNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dW_GkrNhEem2SN-xPtPbNQ" memberEnd="_dVZLILNhEem2SN-xPtPbNQ _dW_Gk7NhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_dW_Gk7NhEem2SN-xPtPbNQ" name="Deposit" type="_dSBuELNhEem2SN-xPtPbNQ" association="_dW_GkrNhEem2SN-xPtPbNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5eHJULNhEem2SN-xPtPbNQ" name="A_&lt;myLog>_&lt;receipt>" memberEnd="_5eHJUbNhEem2SN-xPtPbNQ _5eHJVLNhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_5eHJUbNhEem2SN-xPtPbNQ" name="myLog" type="_dR81kLNhEem2SN-xPtPbNQ" association="_5eHJULNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5eHJUrNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5eHJU7NhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_5eHJVLNhEem2SN-xPtPbNQ" name="receipt" type="_dR_R0LNhEem2SN-xPtPbNQ" association="_5eHJULNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5eHJVbNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5eHJVrNhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7kJBsLNhEem2SN-xPtPbNQ" name="A_&lt;moneyTransfer>_&lt;receipt>" memberEnd="_7kJBsbNhEem2SN-xPtPbNQ _7kJBtLNhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_7kJBsbNhEem2SN-xPtPbNQ" name="moneyTransfer" type="_dSAf8LNhEem2SN-xPtPbNQ" association="_7kJBsLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7kJBsrNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7kJBs7NhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_7kJBtLNhEem2SN-xPtPbNQ" name="receipt" type="_dR_R0LNhEem2SN-xPtPbNQ" association="_7kJBsLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7kJBtbNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7kJBtrNhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8dK7cLNhEem2SN-xPtPbNQ" name="A_&lt;dBConnection>_&lt;receipt>" memberEnd="_8dK7cbNhEem2SN-xPtPbNQ _8dK7dLNhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_8dK7cbNhEem2SN-xPtPbNQ" name="dBConnection" type="_dSHNoLNhEem2SN-xPtPbNQ" association="_8dK7cLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dK7crNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dK7c7NhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8dK7dLNhEem2SN-xPtPbNQ" name="receipt" type="_dR_R0LNhEem2SN-xPtPbNQ" association="_8dK7cLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dK7dbNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dK7drNhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9oRcoLNhEem2SN-xPtPbNQ" name="A_&lt;log_Out>_&lt;receipt>" memberEnd="_9oRcobNhEem2SN-xPtPbNQ _9oRcpLNhEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_9oRcobNhEem2SN-xPtPbNQ" name="log_Out" type="_dSH0sLNhEem2SN-xPtPbNQ" association="_9oRcoLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9oRcorNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9oRco7NhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_9oRcpLNhEem2SN-xPtPbNQ" name="receipt" type="_dR_R0LNhEem2SN-xPtPbNQ" association="_9oRcoLNhEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9oRcpbNhEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9oRcprNhEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_A4FnkLNiEem2SN-xPtPbNQ" name="A_&lt;withdrawCash>_&lt;aTM_Machine>" memberEnd="_A4FnkbNiEem2SN-xPtPbNQ _A4FnlLNiEem2SN-xPtPbNQ">
+      <ownedEnd xmi:id="_A4FnkbNiEem2SN-xPtPbNQ" name="withdrawCash" type="_dSC8MLNhEem2SN-xPtPbNQ" association="_A4FnkLNiEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A4FnkrNiEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A4Fnk7NiEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_A4FnlLNiEem2SN-xPtPbNQ" name="aTM_Machine" type="_dSFYcLNhEem2SN-xPtPbNQ" association="_A4FnkLNiEem2SN-xPtPbNQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A4FnlbNiEem2SN-xPtPbNQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A4FnlrNiEem2SN-xPtPbNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dTP2ELNhEem2SN-xPtPbNQ" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_dTQdILNhEem2SN-xPtPbNQ" name="apache">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dTQdIbNhEem2SN-xPtPbNQ" name="logging">
+        <packagedElement xmi:type="uml:Package" xmi:id="_dTQdIrNhEem2SN-xPtPbNQ" name="log4j">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_dTRrQLNhEem2SN-xPtPbNQ" name="LogManager"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_dTSSULNhEem2SN-xPtPbNQ" name="Logger"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dTSSUbNhEem2SN-xPtPbNQ" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_dTSSUrNhEem2SN-xPtPbNQ" name="sql">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTSSU7NhEem2SN-xPtPbNQ" name="*"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTS5Y7NhEem2SN-xPtPbNQ" name="Connection"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTTgcLNhEem2SN-xPtPbNQ" name="ResultSet"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTTgcbNhEem2SN-xPtPbNQ" name="Statement"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dTSSVLNhEem2SN-xPtPbNQ" name="text">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTSSVbNhEem2SN-xPtPbNQ" name="SimpleDateFormat"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTUHgrNhEem2SN-xPtPbNQ" name="ParseException"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dTSSVrNhEem2SN-xPtPbNQ" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTS5YLNhEem2SN-xPtPbNQ" name="Date"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTS5YbNhEem2SN-xPtPbNQ" name="Scanner"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTS5YrNhEem2SN-xPtPbNQ" name="*"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dTUHgLNhEem2SN-xPtPbNQ" name="net">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_dTUHgbNhEem2SN-xPtPbNQ" name="ConnectException"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
