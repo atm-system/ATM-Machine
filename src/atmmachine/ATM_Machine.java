@@ -204,7 +204,7 @@ public class ATM_Machine {
 					{logger.info(Account_no+" Logged in");
 						System.out.println("\n\n\tWELCOME\n\n");
 						//change lock
-						String sql9="update account set soft_lock=1 where account_no="+Account_no;
+						String sql9="update account set soft_lock=0 where account_no="+Account_no;
 						ResultSet t=st.executeQuery(sql9);
 						//System.out.println("query sql9 working");
 						//t.next();
