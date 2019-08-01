@@ -160,7 +160,7 @@ public class ATM_Machine {
 		
 		//new code end
 		//Encryption();
-		String sql = "select * from acc_pin where CARD_PIN_E='"+tempcardnum+"'";
+		String sql = "select * from card_pin where CARD_PIN_E='"+tempcardnum+"'";
 		
 		ResultSet m= st.executeQuery(sql);
 		//System.out.println("query sql working");
@@ -292,6 +292,7 @@ public class ATM_Machine {
 					break;
 			case 2: 
 				logger.info(Account_no+" selected Withdrawal");
+				
 				w.withdrawal();
 				break;
 			case 3: 

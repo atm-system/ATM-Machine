@@ -4,7 +4,7 @@ import java.util.*;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import atmmachine.ATM_Machine;
 import atmmachine.Receipt;
 import java.sql.*;
 
@@ -29,10 +29,11 @@ public class withdrawCash {
 	// The amount.
 	protected int amount = 0;
 	int initAmount = 0;
+	int daily_limit=0;
 	protected int actNo = 0;
 	protected int atmBalance = 0;
 	protected int userAccountBalance = 0;
-
+	int dispensedAmount=0;
 	// Constructor to initialize the variables
 	public withdrawCash(int acntNo) {
 //		System.out.println("Please enter the amount to withdraw");
@@ -79,7 +80,7 @@ public class withdrawCash {
 
 			}
 
-			con.close();
+			//con.close();
 		} catch (Exception ex) {
 			System.out.println(ex);
 		}
@@ -87,7 +88,7 @@ public class withdrawCash {
 	}
 
 	public void dbConnectForAccount() {// Method to fetch available denomination from users account
-		String url = "jdbc:oracle:thin:@OSCTrain1DB01.oneshield.com:1521:train1";
+	String url = "jdbc:oracle:thin:@OSCTrain1DB01.oneshield.com:1521:train1";
 		String user = "amdias";
 		String pass = "password";
 
@@ -95,8 +96,7 @@ public class withdrawCash {
 		// System.out.println("inside 2nd func"+this.actNo);
 		
 		try {
-
-			Connection con= DBConnection.getConnection();
+			Connection con = DBConnection.getConnection();
 
 			Statement st = con.createStatement();
 			ResultSet rs2 = st.executeQuery(sql);
@@ -108,8 +108,22 @@ public class withdrawCash {
 				userAccountBalance = rs2.getInt(3);
 				// System.out.println(userAccountBalance);
 			}
-
-			con.close();
+			String sql1 =
+	                 "select sum(transaction_amt) from transaction where account_no = "+this.actNo+" and trunc(timestamps) = trunc(sysdate) and transaction_type = 'WITHDRAWAL'";
+	//		Statement st1 = con.createStatement();
+			ResultSet rs3 = st.executeQuery(sql1);
+			while(rs3.next())
+            {
+                daily_limit = rs3.getInt(1);
+                if((daily_limit+initAmount) >20000)
+                {
+                    System.out.println("This amount will cross your daily limit!!");
+                    System.out.println("Your remaining daily limit is: "+ (20000-daily_limit));
+                Receipt r90 = new Receipt();
+                r90.receipt(0000, 1, actNo);
+                }
+            }
+//			con.close();
 		} catch (Exception ex) {
 			System.out.println(ex);
 		}
@@ -124,6 +138,31 @@ public class withdrawCash {
 	}
 
 	public void withdrawal() {
+		try {
+			Connection con = DBConnection.getConnection();
+
+			String sql1 =
+	                 "select sum(transaction_amt) from transaction where account_no = "+this.actNo+" and trunc(timestamps) = trunc(sysdate) and transaction_type = 'WITHDRAWAL'";
+			Statement st1 = con.createStatement();
+			ResultSet rs3 = st1.executeQuery(sql1);
+			while(rs3.next())
+           {
+               daily_limit = rs3.getInt(1);
+               System.out.println(daily_limit);
+               if(daily_limit >=20000)
+               {
+                   System.out.println("You have crossed your daily limit!!");
+                   System.out.println("Your remaining daily limit is:0");
+               Receipt r91 = new Receipt();
+               r91.receipt(0000, 1, actNo);
+               }
+           }
+			
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		
 		System.out.println("--------------------------------------");
 		System.out.println("Please enter the amount to withdraw");
 		int userAmt = k.nextInt();
@@ -141,6 +180,10 @@ public class withdrawCash {
 			if (initAmount >= 50 && initAmount <= 20000 && modCheck == 0) {// condition to check whether the withdrawal
 				System.out.println("--------------------------------------");												
 				// amount is within withdrawal amount or not
+				
+				System.out.println("What would you like?\n1. Denomination of my choice.\n2. System generated denomination.");
+				int choice=k.nextInt();
+				if(choice==1) {
 				System.out.println("Please enter the denomination of your priority below, \nfrom the currency notes of 2000,1000,500,100,50");
 				int priorityNote = k.nextInt();
 				int numberPriNote = 0;
@@ -148,62 +191,97 @@ public class withdrawCash {
 				switch (priorityNote) {
 				case 2000:
 					numberPriNote = amount / priorityNote;
-
-					if (numberPriNote > currNo[0]) {
-						System.out.println("No sufficient denomination present.\nPlease accept the system generated denomination");
-						System.out.println("--------------------------------------");												
+				if(currNo[0]==0) {
+					System.out.println("Not enough denomination of 2000 is present.\nPlease accept the system generated denomination.");
+					withdrawdCash();
+				}
+					if (numberPriNote > currNo[0]&& currNo[0]>0) {
+						
+						count[0] = currNo[0];
+						currNo[0] = currNo[0] -currNo[0] ;
+						amount = amount - count[0] * currDenom[0];
+					
 						numberPriNote = 0;
 						withdrawdCash();
 					}
 					amountSubtractor2k(numberPriNote);
 					break;
 				case 1000:
+					if(currNo[1]==0) {
+						System.out.println("Not enough denomination of 1000 is present.\nPlease accept the system generated denomination.");
+						withdrawdCash();
+					}
 					numberPriNote = amount / priorityNote;
-
-					if (numberPriNote > currNo[1]) {
-						System.out.println(
-								"No sufficient denomination present.\nPlease accept the system generated denomination");
-						System.out.println("--------------------------------------");												
-
+					if (numberPriNote > currNo[1]&& currNo[1]>0) {
+						
+						
+						count[1] = currNo[1];
+						currNo[1] = currNo[1] -currNo[1] ;
+						amount = amount - count[1] * currDenom[1];
+						
 						numberPriNote = 0;
 						withdrawdCash();
 					}
 					amountSubtractor1k(numberPriNote);
 					break;
 				case 500:
+					if(currNo[2]==0) {
+						System.out.println("Not enough denomination of 500 is present.\nPlease accept the system generated denomination.");
+						withdrawdCash();
+					}
 					numberPriNote = amount / priorityNote;
-					if (numberPriNote > currNo[2]) {
-						System.out.println(numberPriNote);
-						System.out.println(
-								"No sufficient denomination present.\nPlease accept the system generated denomination");
-						System.out.println("--------------------------------------");												
-
+					if (numberPriNote > currNo[2]&& currNo[2]>0) {
+						count[2] = currNo[2];
+						currNo[2] = currNo[2] -currNo[2] ;
+						amount = amount - count[2] * currDenom[2];
+						
 						numberPriNote = 0;
 						withdrawdCash();
 					}
 					amountSubtractor5h(numberPriNote);
 					break;
 				case 100:
+					if(currNo[3]==0) {
+						System.out.println("Not enough denomination of 100 is present.\nPlease accept the system generated denomination.");
+						withdrawdCash();
+					}
 					numberPriNote = amount / priorityNote;
-					if (numberPriNote > currNo[3]) {
-						System.out.println(
-								"No sufficient denomination present. \nPlease accept the system generated denomination");
-						System.out.println("--------------------------------------");												
-
+					if (numberPriNote > currNo[3]&& currNo[3]>0) {
+						
+						count[3] = currNo[3];
+						currNo[3] = currNo[3] -currNo[3] ;
+						amount = amount - count[3] * currDenom[3];
+						
 						numberPriNote = 0;
 						withdrawdCash();
 					}
 					amountSubtractor1h(numberPriNote);
 					break;
 				case 50:
-					numberPriNote = amount / priorityNote;
-					if (numberPriNote > currNo[4]) {
-						System.out.println(
-								"No sufficient denomination present.\nPlease accept the system generated denomination");
-						System.out.println("--------------------------------------");												
-
-						numberPriNote = 0;
+					if(currNo[4]==0) {
+						System.out.println("Not enough denomination of 50 is present.\nPlease accept the system generated denomination.");
 						withdrawdCash();
+					}
+					numberPriNote = amount / priorityNote;
+					if (numberPriNote > currNo[4]&& currNo[4]>0) {
+						
+						count[4] = currNo[4];
+						currNo[4] = currNo[4] -currNo[4] ;
+						int temporary;
+						temporary = amount;
+						//System.out.println("copied to temporary");
+						amount = amount - count[4] * currDenom[4];
+						//System.out.println("amount calculated");
+						if(amount%50==0)
+						{
+							//System.out.println("inside if");
+							currNo[4]=count[4];
+							count[4]=0;
+							amount=temporary;
+							//System.out.println("reverted amount");
+							withdrawdCash();
+						}
+						//numberPriNote = 0;
 					}
 					amountSubtractor50(numberPriNote);
 					break;
@@ -213,6 +291,10 @@ public class withdrawCash {
 					break;
 
 				}
+			}
+				else {
+					withdrawdCash();
+				}
 
 			} else {
 				System.out.println("Please enter the amount upto Rs 200000 in the multiples of 50");
@@ -221,6 +303,28 @@ public class withdrawCash {
 
 		} else {
 			System.out.println("Not enough balance to dispense cash at the moment.");
+			Receipt r23 = new Receipt();
+			r23.receipt(0000, 1, actNo);
+			
+			
+			
+//			System.out.println("Do You want to continue with transaction:\n" + "0: CONTINUE 1: EXIT");
+//			
+//			int choice = k.nextInt();
+//			if (choice == 0)
+//
+//			{
+//				ATM_Machine atm=new ATM_Machine();
+//				atm.menu();
+//
+//			} else {
+//				
+//				Log_Out l1 = new Log_Out();
+//				l1.logout();
+//
+//			}
+//			
+			
 		}
 	}
 
@@ -302,10 +406,10 @@ public class withdrawCash {
 		// where ATM_MACHINE_ID=1 ";
 		String sql1 = "Update ATM_MACHINE set D_2000=" + currNo[0] + ",D_1000=" + currNo[1] + ",D_500=" + currNo[2]
 				+ ",D_100=" + currNo[3] + ",D_50=" + currNo[4] + " where ATM_MACHINE_ID=1 ";
-		String sql2 = "Update ACCOUNT set ACCOUNT_BALANCE=ACCOUNT_BALANCE-" + initAmount + " where ACCOUNT_NO="
+		String sql2 = "Update ACCOUNT set ACCOUNT_BALANCE=ACCOUNT_BALANCE-" + dispensedAmount + " where ACCOUNT_NO="
 				+ this.actNo + "";
 		String sql3 = "INSERT INTO TRANSACTION(TRANSACTION_TYPE,ACCOUNT_NO,TRANSACTION_AMT) VALUES('WITHDRAWAL',"
-				+ this.actNo + "," + initAmount + ")";
+				+ this.actNo + "," + dispensedAmount + ")";
 		String sql4 ="select max(transaction_id) from transaction"; 
 
 		
@@ -324,10 +428,10 @@ public class withdrawCash {
 			ResultSet abcd= st1.executeQuery(sql4);
 			abcd.next();
 			this.receiptnumber=abcd.getInt(1);
-			con.close();
+//			con.close();
 
 		} catch (Exception ex) {
-			System.err.println(ex);
+			System.out.println(ex);
 		}
 
 	}
@@ -393,11 +497,16 @@ public class withdrawCash {
 						// Calculate the amount that need to be addressed in the next iterations
 						amount = amount - (count[i] * currDenom[i]);
 						// no atm update function calling here
+						
 					}
 				}
 			}
-
-			System.out.println("The amount dispensed is: ₹" + initAmount);
+			dispensedAmount=amountCheck();
+			
+			
+			
+			if(initAmount==dispensedAmount) {
+			System.out.println("The amount dispensed is: ₹" + dispensedAmount);
 
 			// Functions not to be used if not required
 			displayNotes();
@@ -412,6 +521,12 @@ public class withdrawCash {
 			System.out.println(" ");
 			Receipt r1 = new Receipt();
 			r1.receipt(receiptnumber, 2 , actNo);
+			}else {
+				System.out.println("Not enough balance to dispense cash at the moment.");				
+				Receipt r23 = new Receipt();
+				r23.receipt(receiptnumber, 1, actNo);
+
+			}
 			
 		} else {
 			System.out.println("Unable to dispense cash at this moment for this amount");
@@ -419,6 +534,18 @@ public class withdrawCash {
 
 	}
 
+	
+	
+	
+	public int amountCheck() {
+		int dispensedAmnt=0;
+		for(int i = 0; i < currDenom.length; i++) {
+			dispensedAmnt= dispensedAmnt+ (count[i] * currDenom[i]);
+		}
+		
+		return dispensedAmnt;
+		
+	}
 	/**
 	 * Display notes.
 	 */

@@ -45,7 +45,9 @@ public void deposit1(int number)
 			if(flag==3)
 			{
 		        System.out.println("Sorry you exceeded the chances please insert card and try again\n");	
-				l1.logout();
+				//l1.logout();
+		        Receipt r1 = new Receipt();
+		        r1.receipt(0000, 1, acc_number);
 			}
 	        System.out.println("cannot deposit "+amt);	
 	        System.out.println((3-flag) +" attempts left!");
