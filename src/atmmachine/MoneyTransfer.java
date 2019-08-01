@@ -96,6 +96,7 @@ public class MoneyTransfer {
 								break;
 					case 2:Receipt r123 = new Receipt();
 					r123.receipt(0000, 1, sender_acc_number);
+					//new
 						/*
 							 * Log_Out logut=new Log_Out(); logut.logout();
 							 */
