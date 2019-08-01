@@ -43,7 +43,7 @@ public void deposit1(int number)
 		{
 			++flag;
 			if(flag==3)
-			{
+			{logger.info(acc_number+" Entered invalid balance");
 		        System.out.println("Sorry you exceeded the chances please insert card and try again\n");	
 				//l1.logout();
 		        Receipt r1 = new Receipt();
@@ -57,14 +57,14 @@ public void deposit1(int number)
 		
 		new_acc_balance = acc_balance + amt;
 		String query2 = " update account set account_balance ="+new_acc_balance+" where account_no='"+acc_number+"'" ;
-		logger.debug("User Completed Deposit Succesfully !!!");
 		stmt.executeUpdate(query2);
+		logger.info(acc_number+" Deposited "+amt);
 		System.out.print("The Transaction is processed successfully\n");
 		System.out.println("The new balance is "+new_acc_balance);
 		
 		String sql1 = "INSERT INTO TRANSACTION(TRANSACTION_TYPE,ACCOUNT_NO,TRANSACTION_AMT) VALUES('DEPOSIT',"+acc_number+","+amt+")";
 		stmt.executeUpdate(sql1);
-		
+	//get receipt_number	
 		String sql7 ="select max(transaction_id) from transaction where account_no='"+acc_number+"'"; 
 		ResultSet r=stmt.executeQuery(sql7); 
 		r.next();
@@ -74,7 +74,7 @@ public void deposit1(int number)
 		}
 	}
 	catch(Exception e)
-	{
+	{logger.debug("Error Occured!!");
 		System.out.println(e);
 	}
 	

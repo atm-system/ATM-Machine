@@ -23,6 +23,9 @@ public class MoneyTransfer {
 				int sender_acc_number=acc_no;
 				int receiver_acc_number=0;	
 				int amt=0;
+				int invalid2=0;//to check invalid amount entry by user
+				boolean flag2=true;
+				while(flag2) {
 				try{  
 					//step1 load the driver class  
 					Connection con= DBConnection.getConnection();  
@@ -46,14 +49,37 @@ public class MoneyTransfer {
 				amt=amtobj.nextInt();  //Amount to be transfered
 				}catch(Exception e)
 				{logger.debug(acc_no+"Overflow Error");
-				
-					System.out.println("Transfer Limit is ₹1,00,000");	
+				invalid2 = invalid2+1;
+				if(invalid2==3)//user gets only 3 attempts
+				{
+					System.out.println("Sorry you exceeded the chances please insert card and try again\n");	
+					//l1.logout();
+			        Receipt r99 = new Receipt();
+			        r99.receipt(0000, 1, sender_acc_number);
+				}
+				else {
+					System.out.println("Min Transfer is ₹1 and Max Transfer is ₹1,00,000\n Please Enter Correct Amount");
+					System.out.println((3-invalid2)+" attempts left!");
+					continue;
+				}
 				}
 					if(amt<=0 || amt >=100000)
 				
 				{
-					System.out.println("Min Transfer is ₹1 and Max Transfer is ₹1,00,000");
-					transfer(sender_acc_number);
+						invalid2 = invalid2+1;
+						if(invalid2==3)
+						{
+							System.out.println("Sorry you exceeded the chances please insert card and try again\n");	
+							//l1.logout();
+					        Receipt r199 = new Receipt();
+					        r199.receipt(0000, 1, sender_acc_number);
+						}
+						else {
+					System.out.println("Min Transfer is ₹1 and Max Transfer is ₹1,00,000\n Please Enter Correct Amount");
+					//transfer(sender_acc_number);
+					System.out.println((3-invalid2)+" attempts left!");
+					continue;
+						}
 				}
 				
 		        if(sender_acc_balance <amt)
@@ -68,12 +94,16 @@ public class MoneyTransfer {
 					{
 						case 1: transfer(sender_acc_number);
 								break;
-						case 2: Log_Out logut=new Log_Out();
-						        logut.logout(); 
+					case 2:Receipt r123 = new Receipt();
+					r123.receipt(0000, 1, sender_acc_number);
+					//new
+						/*
+							 * Log_Out logut=new Log_Out(); logut.logout();
+							 */
 							break;
 							default:
-								Log_Out logut1=new Log_Out();
-						        logut1.logout(); 
+								Receipt r1234 = new Receipt();
+								r1234.receipt(0000, 1, sender_acc_number); 
 							break;
 					}
 					
@@ -160,6 +190,6 @@ public class MoneyTransfer {
 					//call transfer function 
 					transfer(sender_acc_number);
 				}
-				
+				}
 			    }
 }

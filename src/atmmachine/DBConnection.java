@@ -9,7 +9,7 @@ public class DBConnection {
 	static Connection con = null;
 	static final Logger logger = LogManager.getLogger(DBConnection.class.getName());
 
-	private DBConnection() {
+	private DBConnection() {logger.info("DB Connection Initialized");
 
 	}
 
@@ -18,9 +18,10 @@ public class DBConnection {
 			if (con == null)
 				con = DriverManager.getConnection("jdbc:oracle:thin:@OSCTrain1DB01.oneshield.com:1521:TRAIN1", "amdias",
 						"password");
+			
 		} catch (Exception e) 
 			{
-				e.printStackTrace();
+				logger.debug("DBConnection issue!!");
 				System.out.println("DBConnection Issue!!");
 			}
 		return con;
