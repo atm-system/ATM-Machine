@@ -4,6 +4,9 @@ import java.util.*;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.sun.org.apache.bcel.internal.generic.GOTO;
+
 import atmmachine.ATM_Machine;
 import atmmachine.Receipt;
 import java.sql.*;
@@ -183,6 +186,7 @@ public class withdrawCash {
 				
 				System.out.println("What would you like?\n1. Denomination of my choice.\n2. System generated denomination.");
 				int choice=k.nextInt();
+				//if(choice>2) {}
 				if(choice==1) {
 				System.out.println("Please enter the denomination of your priority below, \nfrom the currency notes of 2000,1000,500,100,50");
 				int priorityNote = k.nextInt();
@@ -292,8 +296,13 @@ public class withdrawCash {
 
 				}
 			}
-				else {
+				else if(choice==2){
 					withdrawdCash();
+				}
+				else
+				{
+					System.out.println("Invalid choice");
+					//goto a;
 				}
 
 			} else {
