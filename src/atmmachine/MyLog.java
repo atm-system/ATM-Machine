@@ -3,7 +3,8 @@ package atmmachine;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class MyLog {static final Logger logger = LogManager.getLogger(MyLog.class.getName());
+public class MyLog {
+	static final Logger logger = LogManager.getLogger(MyLog.class.getName());
 
 	public static Logger getLogger() {
 		if (logger == null) {
@@ -15,7 +16,5 @@ public class MyLog {static final Logger logger = LogManager.getLogger(MyLog.clas
 		}
 		return logger;
 	}
-
-	
 
 }

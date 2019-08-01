@@ -8,15 +8,14 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class Receipt {
 	static final Logger logger = LogManager.getLogger(Receipt.class.getName());
 
 	public void receipt(int receipt_no, int category, int accno) {
-		
+
 		ATM_Machine atm = new ATM_Machine(accno, receipt_no);
-		Connection con= DBConnection.getConnection();
-		
+		Connection con = DBConnection.getConnection();
+
 		String sql9 = "update account set SOFT_LOCK = 1 WHERE account_no=" + accno;
 
 		switch (category) {
@@ -25,7 +24,6 @@ public class Receipt {
 			try {
 
 // Connection Object
-				
 
 // create the statement object
 				PreparedStatement p = con
@@ -42,7 +40,7 @@ public class Receipt {
 					int amount = rs.getInt("account_balance");
 
 // Display		
-					
+
 					logger.info("Receipt printed");
 
 					Date date = new Date();// timestamp
@@ -84,8 +82,8 @@ public class Receipt {
 			try {
 
 // Connection Object
-				
-				//SQL QUERY
+
+				// SQL QUERY
 				String query = "select TRANSACTION_ID ,\n" + "TRANSACTION_TYPE ,\n" + "transaction.ACCOUNT_NO ,\n"
 						+ "TIMESTAMPS ,\n" + "TRANSACTION_AMT,account.account_balance as cur from transaction \n"
 						+ "join account\n" + "on account.account_no=transaction.account_no\n"
@@ -146,7 +144,6 @@ public class Receipt {
 			System.out.println("Transfer done Successfully");
 
 			try {
-				
 
 //SQL QUERY
 				String query = "select transaction.*,transfer.beneficiary_acc,account.account_balance as cur from transaction \n"
@@ -204,7 +201,7 @@ public class Receipt {
 			try {
 
 // Connection Object
-			
+
 				String query = "select TRANSACTION_ID ,\n" + "TRANSACTION_TYPE ,\n" + "transaction.ACCOUNT_NO ,\n"
 						+ "TIMESTAMPS ,\n" + "TRANSACTION_AMT,account.account_balance as cur from transaction \n"
 						+ "join account\n" + "on account.account_no=transaction.account_no\n"
