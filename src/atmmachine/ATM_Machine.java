@@ -239,7 +239,7 @@ public class ATM_Machine {
 				this.count = Integer.parseInt(tocheckcount);
 				this.count++;
 				temp=countvalue-this.count;
-				if(this.count<=3)
+				if(this.count<3)
 				{
 					System.out.println("Invalid Pin");
 					System.out.println("Chances left :"+ temp);

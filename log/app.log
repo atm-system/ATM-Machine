@@ -1939,3 +1939,818 @@
 2019-08-01 12:23:53 [main] DEBUG Deposit:60 - User Completed Deposit Succesfully !!!
 2019-08-01 12:24:11 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
 2019-08-01 12:24:45 [main] INFO  Receipt:46 - Receipt printed
+2019-08-01 15:42:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:42:12 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:42:14 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:43:09 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:43:11 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:43:14 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 15:43:14 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:43:24 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:43:27 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:43:28 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 15:43:36 [main] INFO  Receipt:46 - Receipt printed
+2019-08-01 15:44:07 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 15:44:07 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:44:42 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:44:44 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:45:19 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:45:21 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:45:23 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 15:45:55 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 15:45:55 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:46:03 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:46:05 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:46:07 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 15:46:07 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:46:15 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:46:17 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:46:22 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 15:46:22 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:46:30 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:46:32 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:46:34 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 15:47:22 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:47:30 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:47:32 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:47:34 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 15:47:50 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:47:59 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:47:59 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:47:59 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:47:59 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:47:59 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:48:06 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:48:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:48:06 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:48:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:48:06 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:48:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:48:24 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:48:35 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:48:37 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 15:48:38 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 15:49:43 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:49:48 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:49:48 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:49:48 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:49:48 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:54:29 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:54:39 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 15:54:40 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.sql.SQLException: Result set after last row
+2019-08-01 15:54:40 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:59:44 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 15:59:44 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 15:59:44 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 16:00:24 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 16:00:46 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 16:00:48 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 16:00:58 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 16:02:19 [main] INFO  ATM_Machine:299 - 1212123456 selected transfer
+2019-08-01 16:04:42 [main] INFO  ATM_Machine:303 - 1212123456 selected Deposit
+2019-08-01 16:05:00 [main] DEBUG Deposit:60 - User Completed Deposit Succesfully !!!
+2019-08-01 16:06:03 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 16:06:07 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 16:06:07 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 16:06:07 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 16:06:20 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 16:06:55 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 16:07:06 [main] INFO  Receipt:46 - Receipt printed
+2019-08-01 16:08:29 [main] INFO  ATM_Machine:294 - 1212123456 selected Withdrawal
+2019-08-01 18:18:56 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:19:05 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:19:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:19:13 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:19:14 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:19:24 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:19:24 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:19:35 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:19:36 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:21:40 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:21:41 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:22:41 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:22:43 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:22:54 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:22:56 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:23:04 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:23:06 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:23:30 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:23:32 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 18:24:29 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 18:24:29 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 18:24:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 18:24:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 18:24:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 18:24:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 18:24:49 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:24:56 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:24:58 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:25:28 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:26:02 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:26:03 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:26:15 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:26:18 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 18:26:20 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 18:26:20 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:26:27 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:26:29 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:26:40 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:26:41 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:26:49 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:26:51 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:28:11 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:28:13 [main] INFO  ATM_Machine:204 - 1212123456 Logged in
+2019-08-01 18:28:15 [main] INFO  ATM_Machine:314 - 1212123456 logged out
+2019-08-01 18:28:15 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:28:21 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:28:22 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:28:30 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:28:31 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:28:48 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:28:49 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:29:02 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:29:03 [main] INFO  ATM_Machine:222 - null Logged in
+2019-08-01 18:29:03 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:45:44 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:46:03 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:46:04 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:47:12 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:47:13 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:47:22 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:47:23 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 18:47:31 [main] INFO  ATM_Machine:142 - User Entered Pin
+2019-08-01 18:47:32 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:34 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:34 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
+2019-08-01 23:01:35 [main] INFO  ATM_Machine:137 - Card number Entered
+2019-08-01 23:01:35 [main] DEBUG ATM_Machine:263 - null Invalid cardjava.util.NoSuchElementException: No line found
