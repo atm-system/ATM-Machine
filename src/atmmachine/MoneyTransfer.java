@@ -94,12 +94,15 @@ public class MoneyTransfer {
 					{
 						case 1: transfer(sender_acc_number);
 								break;
-						case 2: Log_Out logut=new Log_Out();
-						        logut.logout(); 
+					case 2:Receipt r123 = new Receipt();
+					r123.receipt(0000, 1, sender_acc_number);
+						/*
+							 * Log_Out logut=new Log_Out(); logut.logout();
+							 */
 							break;
 							default:
-								Log_Out logut1=new Log_Out();
-						        logut1.logout(); 
+								Receipt r1234 = new Receipt();
+								r1234.receipt(0000, 1, sender_acc_number); 
 							break;
 					}
 					
