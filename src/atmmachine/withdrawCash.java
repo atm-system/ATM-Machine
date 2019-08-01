@@ -132,6 +132,21 @@ public class withdrawCash {
 		}
 	}
 
+	public void getDenominationChoice()
+	{
+		System.out.println("Please Enter Available Denomination");
+		if(currNo[0]!=0) {
+		System.out.print("2000 ");}
+		if(currNo[1]!=0) {
+			System.out.print("1000 ");}
+		if(currNo[2]!=0) {
+			System.out.print("500 ");}
+		if(currNo[3]!=0) {
+			System.out.print("100 ");}
+		if(currNo[4]!=0) {
+			System.out.print("50 ");}
+	}
+	
 	public void withdrawal() {
 		try {
 			Connection con = DBConnection.getConnection();
@@ -142,7 +157,7 @@ public class withdrawCash {
 			ResultSet rs3 = st1.executeQuery(sql1);
 			while (rs3.next()) {
 				daily_limit = rs3.getInt(1);
-				System.out.println(daily_limit);
+				//System.out.println(daily_limit);
 				if (daily_limit >= 20000) {
 					System.out.println("You have crossed your daily limit!!");
 					System.out.println("Your remaining daily limit is:0");
@@ -155,17 +170,31 @@ public class withdrawCash {
 			System.out.println(e);
 		}
 
+		boolean flag = true;
+		while(flag)
+		{
+			try {
+				
 		System.out.println("--------------------------------------");
 		System.out.println("Please enter the amount to withdraw");
-		int userAmt = k.nextInt();
+		Scanner k1=new Scanner(System.in);
+		int userAmt = k1.nextInt();
 		this.amount = userAmt;
 		initAmount = userAmt;
+			}
+			catch(Exception e)
+			{
+				
+				System.out.println("Per Transaction Limit is 20,000");
+			   continue; 
+			}
+
 		dbConnect();// here u need to call the method which will fetch denomination from atm DB
 		dbConnectForAccount();
 		calcTotalCorpus();// function to determine amount of balance in ATM
 
 		int modCheck = initAmount % 50;// to ensure that users enter denominations in the factors of 50
-
+		
 		if (initAmount <= atmBalance && initAmount <= userAccountBalance) {// condition to check withdrawal amount is
 																			// within user's bank balance and also
 																			// within cash present in ATM
@@ -173,23 +202,34 @@ public class withdrawCash {
 				System.out.println("--------------------------------------");
 				// amount is within withdrawal amount or not
 
+				
 				System.out.println(
 						"What would you like?\n1. Denomination of my choice.\n2. System generated denomination.");
 				int choice = k.nextInt();
 				// if(choice>2) {}
 				if (choice == 1) {
+					flag = false;
+					boolean flag2=true;
 					System.out.println(
-							"Please enter the denomination of your priority below, \nfrom the currency notes of 2000,1000,500,100,50");
+							"Please enter the denomination of your priority below, \nfrom the currency notes of\n");
+				
+					while(flag2) {
+					getDenominationChoice();
 					int priorityNote = k.nextInt();
 					int numberPriNote = 0;
 					System.out.println("--------------------------------------");
 					switch (priorityNote) {
 					case 2000:
+						
 						numberPriNote = amount / priorityNote;
 						if (currNo[0] == 0) {
-							System.out.println(
-									"Not enough denomination of 2000 is present.\nPlease accept the system generated denomination.");
-							withdrawdCash();
+								/*
+								 * System.out.println(
+								 * "Not enough denomination of 2000 is present.\nPlease accept the system generated denomination."
+								 * );
+								 */
+							continue;
+							//withdrawdCash();
 						}
 						if (numberPriNote > currNo[0] && currNo[0] > 0) {
 
@@ -198,16 +238,19 @@ public class withdrawCash {
 							amount = amount - count[0] * currDenom[0];
 
 							numberPriNote = 0;
+							System.out.println("The notes you require are insufficient for your current request, \n Please Accept System generated currency:\n");
 							withdrawdCash();
 						}
 						amountSubtractor2k(numberPriNote);
 						break;
 					case 1000:
 						if (currNo[1] == 0) {
-							System.out.println(
-									"Not enough denomination of 1000 is present.\nPlease accept the system generated denomination.");
-							withdrawdCash();
-						}
+									/*
+									 * System.out.println(
+									 * "Not enough denomination of 1000 is present.\nPlease accept the system generated denomination."
+									 * ); withdrawdCash();
+									 */
+							continue;}
 						numberPriNote = amount / priorityNote;
 						if (numberPriNote > currNo[1] && currNo[1] > 0) {
 
@@ -216,16 +259,19 @@ public class withdrawCash {
 							amount = amount - count[1] * currDenom[1];
 
 							numberPriNote = 0;
+							System.out.println("The notes you require are insufficient for your current request, \n Please Accept System generated currency:\n");
 							withdrawdCash();
 						}
 						amountSubtractor1k(numberPriNote);
 						break;
 					case 500:
 						if (currNo[2] == 0) {
-							System.out.println(
-									"Not enough denomination of 500 is present.\nPlease accept the system generated denomination.");
-							withdrawdCash();
-						}
+									/*
+									 * System.out.println(
+									 * "Not enough denomination of 500 is present.\nPlease accept the system generated denomination."
+									 * ); withdrawdCash();
+									 */
+							continue;}
 						numberPriNote = amount / priorityNote;
 						if (numberPriNote > currNo[2] && currNo[2] > 0) {
 							count[2] = currNo[2];
@@ -233,16 +279,19 @@ public class withdrawCash {
 							amount = amount - count[2] * currDenom[2];
 
 							numberPriNote = 0;
+							System.out.println("The notes you require are insufficient for your current request, \n Please Accept System generated currency:\n");
 							withdrawdCash();
 						}
 						amountSubtractor5h(numberPriNote);
 						break;
 					case 100:
 						if (currNo[3] == 0) {
-							System.out.println(
-									"Not enough denomination of 100 is present.\nPlease accept the system generated denomination.");
-							withdrawdCash();
-						}
+									/*
+									 * System.out.println(
+									 * "Not enough denomination of 100 is present.\nPlease accept the system generated denomination."
+									 * ); withdrawdCash();
+									 */
+							continue;}
 						numberPriNote = amount / priorityNote;
 						if (numberPriNote > currNo[3] && currNo[3] > 0) {
 
@@ -251,16 +300,19 @@ public class withdrawCash {
 							amount = amount - count[3] * currDenom[3];
 
 							numberPriNote = 0;
+							System.out.println("The notes you require are insufficient for your current request, \n Please Accept System generated currency:\n");
 							withdrawdCash();
 						}
 						amountSubtractor1h(numberPriNote);
 						break;
 					case 50:
 						if (currNo[4] == 0) {
-							System.out.println(
-									"Not enough denomination of 50 is present.\nPlease accept the system generated denomination.");
-							withdrawdCash();
-						}
+									/*
+									 * System.out.println(
+									 * "Not enough denomination of 50 is present.\nPlease accept the system generated denomination."
+									 * ); withdrawdCash();
+									 */
+							continue;}
 						numberPriNote = amount / priorityNote;
 						if (numberPriNote > currNo[4] && currNo[4] > 0) {
 
@@ -277,6 +329,7 @@ public class withdrawCash {
 								count[4] = 0;
 								amount = temporary;
 								// System.out.println("reverted amount");
+								System.out.println("The notes you require are insufficient for your current request, \n Please Accept System generated denomination:\n");
 								withdrawdCash();
 							}
 							// numberPriNote = 0;
@@ -288,19 +341,25 @@ public class withdrawCash {
 						System.out.println("Invalid denomination entered");
 						withdrawal();
 						break;
-
+					
+				
+					}
 					}
 				} else if (choice == 2) {
+					flag=false;
 					withdrawdCash();
 				} else {
 					System.out.println("Invalid choice");
+					continue;
 					// goto a;
+					
+				
 				}
-
 			} else {
 				logger.info(actNo+" Invalid denomination entered");
 				System.out.println("Please enter the amount upto Rs 200000 in the multiples of 50");
-				new withdrawCash(actNo);
+				continue;
+				//new withdrawCash(actNo);
 			}
 
 		} else {
@@ -326,6 +385,7 @@ public class withdrawCash {
 //			}
 //			
 
+		}
 		}
 	}
 

@@ -203,7 +203,8 @@ public class ATM_Machine {
 					if(this.softlock==1)
 					{logger.info(Account_no+" Logged in");
 						System.out.println("\n\n\tWELCOME\n\n");
-						String sql9="update account set soft_lock=0 where account_no="+Account_no;
+						//change lock
+						String sql9="update account set soft_lock=1 where account_no="+Account_no;
 						ResultSet t=st.executeQuery(sql9);
 						//System.out.println("query sql9 working");
 						//t.next();
@@ -239,7 +240,7 @@ public class ATM_Machine {
 				this.count = Integer.parseInt(tocheckcount);
 				this.count++;
 				temp=countvalue-this.count;
-				if(this.count<=3)
+				if(this.count<3)
 				{
 					System.out.println("Invalid Pin");
 					System.out.println("Chances left :"+ temp);
