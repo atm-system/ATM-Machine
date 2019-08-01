@@ -16,6 +16,7 @@ public class MoneyTransfer {
 
 	void transfer(int acc_no)
 			{
+		
 				Receipt r1 = new Receipt();
 				ATM_Machine a1 = new ATM_Machine();
 				int sender_acc_balance=0;  //account balance of sender
@@ -44,8 +45,9 @@ public class MoneyTransfer {
 				Scanner amtobj=new Scanner(System.in);
 			
 				amt=amtobj.nextInt();  //Amount to be transfered
+				logger.info(sender_acc_number+" entered withdrawal amount: "+amt);
 				}catch(Exception e)
-				{logger.debug(acc_no+"Overflow Error");
+				{logger.debug(acc_no+" Overflow Error");
 				
 					System.out.println("Transfer Limit is ₹1,00,000");	
 				}
@@ -56,7 +58,7 @@ public class MoneyTransfer {
 					transfer(sender_acc_number);
 				}
 				
-		        if(sender_acc_balance <amt)
+		        if(sender_acc_balance < amt)
 		    	{logger.info(acc_no+" insufficeint balance");
 					System.out.print("You do not have enough balance\n");
 					//Again call transfer function if the account number is incorrect
@@ -88,11 +90,13 @@ public class MoneyTransfer {
 				try {
 				System.out.print("Please Enter beneficiary account number\n");
 				Scanner receiver_acc_numberobj=new Scanner(System.in);
+				
 				receiver_acc_number=receiver_acc_numberobj.nextInt();
 				}
 				catch(Exception e)
 				{
 					invalid = invalid+1;
+					logger.info(sender_acc_number+ "Entered invalid beneficiary Accno");
 					System.out.println("Invalid account number");	
 					System.out.println((5-invalid) +" attempts left!");
 						
@@ -105,12 +109,12 @@ public class MoneyTransfer {
 						   continue;
 				}
 				if(receiver_acc_number==sender_acc_number)
-				{
+				{logger.info(sender_acc_number+ "Entered invalid beneficiary Accno");
 					System.out.println("Can't Enter own Account Number ");
 					continue;
 				}
 				else
-				{
+				{logger.info(sender_acc_number+ "Entered beneficiary Account no: "+receiver_acc_number);
 				ResultSet rs2=stmt.executeQuery("select account_balance from account where account_no='"+receiver_acc_number+"'");
 				if(!(rs2.next()))
 				{
@@ -140,9 +144,11 @@ public class MoneyTransfer {
 			    		String query = " update account set account_balance ='"+sender_acc_balance+"' where account_no='"+sender_acc_number+"'" ;
 			    		stmt.executeUpdate(query);
 			    		String sql1 = "INSERT INTO TRANSACTION(TRANSACTION_TYPE,ACCOUNT_NO,TRANSACTION_AMT) VALUES('TRANSFER',"+sender_acc_number+","+amt+")";
+			    		
 			    		stmt.executeUpdate(sql1);
 			    		String sql2 ="insert into transfer values ((select max(transaction_id) from transaction where account_no="+sender_acc_number+" ),"+receiver_acc_number+")";
 			    		stmt.executeUpdate(sql2);
+			    		logger.info(sender_acc_number+ " transferred "+amt+" to "+receiver_acc_number);
 			    	    
 			    	    String sql7 ="select max(transaction_id) from transaction where account_no='"+sender_acc_number+"'"; 
 			    		ResultSet r=stmt.executeQuery(sql7); 
@@ -155,7 +161,7 @@ public class MoneyTransfer {
 			    	
 			    }
 				catch(Exception e)
-				{logger.debug(acc_no+" Invalid account");
+				{logger.debug("Error!!");
 					System.out.print("Invalid account number\n");
 					//call transfer function 
 					transfer(sender_acc_number);
