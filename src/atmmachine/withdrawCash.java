@@ -5,8 +5,6 @@ import java.util.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-
 import atmmachine.ATM_Machine;
 import atmmachine.Receipt;
 import java.sql.*;
